@@ -2,6 +2,7 @@
   "expo": {
     "name": "avaliacao2",
     "slug": "avaliacao2",
+    "scheme": "avaliacao2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,6 +20,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ]
   }
 }
